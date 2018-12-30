@@ -1,0 +1,662 @@
+[
+  {
+    "base_name": null,
+    "name": "warmup",
+    "value": 9.255479335784912
+  },
+  {
+    "base_name": null,
+    "name": "test_deferred",
+    "value": 4.654762268066406
+  },
+  {
+    "base_name": null,
+    "name": "test_deferred_blocked",
+    "value": 9.144741535186768
+  },
+  {
+    "base_name": "test_deferred",
+    "name": "test_inline_deferred",
+    "value": 11.196252822875977
+  },
+  {
+    "base_name": "test_deferred",
+    "name": "test_inline_deferred_blocked",
+    "value": 21.262666702270508
+  },
+  {
+    "base_name": "test_deferred",
+    "name": "test_return_deferred",
+    "value": 4.885525226593018
+  },
+  {
+    "base_name": null,
+    "name": "test_1_func",
+    "value": 3.3695430755615234
+  },
+  {
+    "base_name": null,
+    "name": "test_3_func",
+    "value": 3.3211564443197594
+  },
+  {
+    "base_name": null,
+    "name": "test_10_func",
+    "value": 3.960843086242676
+  },
+  {
+    "base_name": null,
+    "name": "test_1_1_func",
+    "value": 3.7343692779541016
+  },
+  {
+    "base_name": null,
+    "name": "test_1_3_func",
+    "value": 3.904025238680552
+  },
+  {
+    "base_name": null,
+    "name": "test_3_1_func",
+    "value": 4.418236663542598
+  },
+  {
+    "base_name": null,
+    "name": "test_3_3_func",
+    "value": 4.899952628395774
+  },
+  {
+    "base_name": null,
+    "name": "test_10_1_func",
+    "value": 7.014641761779785
+  },
+  {
+    "base_name": null,
+    "name": "test_10_3_func",
+    "value": 8.313164114952087
+  },
+  {
+    "base_name": null,
+    "name": "test_10_10_func",
+    "value": 12.827920913696289
+  },
+  {
+    "base_name": null,
+    "name": "test_1_deferred_blocked",
+    "value": 5.9229416847229
+  },
+  {
+    "base_name": null,
+    "name": "test_1_deferred",
+    "value": 4.502599239349365
+  },
+  {
+    "base_name": null,
+    "name": "test_3_deferred_blocked",
+    "value": 11.438636894685676
+  },
+  {
+    "base_name": null,
+    "name": "test_3_deferred",
+    "value": 6.223810724465244
+  },
+  {
+    "base_name": null,
+    "name": "test_10_deferred_blocked",
+    "value": 30.970172882080078
+  },
+  {
+    "base_name": null,
+    "name": "test_10_deferred",
+    "value": 12.18228816986084
+  },
+  {
+    "base_name": null,
+    "name": "test_1_1_deferred_blocked",
+    "value": 6.212789058685303
+  },
+  {
+    "base_name": null,
+    "name": "test_1_1_deferred",
+    "value": 4.837687969207764
+  },
+  {
+    "base_name": null,
+    "name": "test_1_3_deferred_blocked",
+    "value": 11.492248041084014
+  },
+  {
+    "base_name": null,
+    "name": "test_1_3_deferred",
+    "value": 6.580315440534109
+  },
+  {
+    "base_name": null,
+    "name": "test_3_1_deferred_blocked",
+    "value": 12.238193707293775
+  },
+  {
+    "base_name": null,
+    "name": "test_3_1_deferred",
+    "value": 7.301810276077454
+  },
+  {
+    "base_name": null,
+    "name": "test_3_3_deferred_blocked",
+    "value": 28.795012560757723
+  },
+  {
+    "base_name": null,
+    "name": "test_3_3_deferred",
+    "value": 12.266250090165572
+  },
+  {
+    "base_name": null,
+    "name": "test_10_1_deferred_blocked",
+    "value": 34.43070888519287
+  },
+  {
+    "base_name": null,
+    "name": "test_10_1_deferred",
+    "value": 15.845227241516113
+  },
+  {
+    "base_name": null,
+    "name": "test_10_3_deferred_blocked",
+    "value": 96.8974232673645
+  },
+  {
+    "base_name": null,
+    "name": "test_10_3_deferred",
+    "value": 31.824365258216858
+  },
+  {
+    "base_name": null,
+    "name": "test_10_10_deferred_blocked",
+    "value": 380.69396018981934
+  },
+  {
+    "base_name": null,
+    "name": "test_10_10_deferred",
+    "value": 89.90693092346191
+  },
+  {
+    "base_name": "test_1_func",
+    "name": "test_addCallback_1_succeed_func",
+    "value": 8.809750080108643
+  },
+  {
+    "base_name": "test_3_func",
+    "name": "test_addCallback_3_succeed_func",
+    "value": 14.773575656385306
+  },
+  {
+    "base_name": "test_10_func",
+    "name": "test_addCallback_10_succeed_func",
+    "value": 35.21702289581299
+  },
+  {
+    "base_name": "test_1_func",
+    "name": "test_yield_1_func_succeed_returnValue",
+    "value": 12.42305326461792
+  },
+  {
+    "base_name": "test_3_func",
+    "name": "test_yield_3_func_succeed_returnValue",
+    "value": 13.148230242441935
+  },
+  {
+    "base_name": "test_10_func",
+    "name": "test_yield_10_func_succeed_returnValue",
+    "value": 15.213284492492676
+  },
+  {
+    "base_name": "test_1_func",
+    "name": "test_yield_1_func_succeed_return",
+    "value": 11.888440132141113
+  },
+  {
+    "base_name": "test_3_func",
+    "name": "test_yield_3_func_succeed_return",
+    "value": 12.427612959620465
+  },
+  {
+    "base_name": "test_10_func",
+    "name": "test_yield_10_func_succeed_return",
+    "value": 14.488091468811035
+  },
+  {
+    "base_name": "test_1_func",
+    "name": "test_yield_1_func_returnValue",
+    "value": 10.774259090423584
+  },
+  {
+    "base_name": "test_3_func",
+    "name": "test_yield_3_func_returnValue",
+    "value": 11.310746870845197
+  },
+  {
+    "base_name": "test_10_func",
+    "name": "test_yield_10_func_returnValue",
+    "value": 13.187713623046875
+  },
+  {
+    "base_name": "test_1_func",
+    "name": "test_yield_1_func_return",
+    "value": 10.605995655059814
+  },
+  {
+    "base_name": "test_3_func",
+    "name": "test_yield_3_func_return",
+    "value": 10.593718793018756
+  },
+  {
+    "base_name": "test_10_func",
+    "name": "test_yield_10_func_return",
+    "value": 10.655832290649414
+  },
+  {
+    "base_name": "test_1_1_func",
+    "name": "test_yield_1_yield_1_func_return",
+    "value": 22.502646446228027
+  },
+  {
+    "base_name": "test_1_3_func",
+    "name": "test_yield_1_yield_3_func_return",
+    "value": 34.305413085294056
+  },
+  {
+    "base_name": "test_3_1_func",
+    "name": "test_yield_3_yield_1_func_return",
+    "value": 45.67336605255862
+  },
+  {
+    "base_name": "test_3_3_func",
+    "name": "test_yield_3_yield_3_func_return",
+    "value": 80.52467432889071
+  },
+  {
+    "base_name": "test_10_1_func",
+    "name": "test_yield_10_yield_1_func_return",
+    "value": 128.0806016921997
+  },
+  {
+    "base_name": "test_10_3_func",
+    "name": "test_yield_10_yield_3_func_return",
+    "value": 243.2805746793747
+  },
+  {
+    "base_name": "test_10_10_func",
+    "name": "test_yield_10_yield_10_func_return",
+    "value": 646.9601154327393
+  },
+  {
+    "base_name": "test_1_1_func",
+    "name": "test_await_1_await_1_func_return",
+    "value": 31.87471055984497
+  },
+  {
+    "base_name": "test_1_3_func",
+    "name": "test_await_1_await_3_func_return",
+    "value": 50.00692821410765
+  },
+  {
+    "base_name": "test_3_1_func",
+    "name": "test_await_3_await_1_func_return",
+    "value": 67.98451061708381
+  },
+  {
+    "base_name": "test_3_3_func",
+    "name": "test_await_3_await_3_func_return",
+    "value": 120.50537196072665
+  },
+  {
+    "base_name": "test_10_1_func",
+    "name": "test_await_10_await_1_func_return",
+    "value": 193.11425685882568
+  },
+  {
+    "base_name": "test_10_3_func",
+    "name": "test_await_10_await_3_func_return",
+    "value": 367.93483793735504
+  },
+  {
+    "base_name": "test_10_10_func",
+    "name": "test_await_10_await_10_func_return",
+    "value": 987.340497970581
+  },
+  {
+    "base_name": "test_1_1_func",
+    "name": "test_bareawait_1_bareawait_1_func_return",
+    "value": 13.764747619628906
+  },
+  {
+    "base_name": "test_1_3_func",
+    "name": "test_bareawait_1_bareawait_3_func_return",
+    "value": 14.69494492174631
+  },
+  {
+    "base_name": "test_3_1_func",
+    "name": "test_bareawait_3_bareawait_1_func_return",
+    "value": 15.861327389636672
+  },
+  {
+    "base_name": "test_3_3_func",
+    "name": "test_bareawait_3_bareawait_3_func_return",
+    "value": 18.108276887373492
+  },
+  {
+    "base_name": "test_10_1_func",
+    "name": "test_bareawait_10_bareawait_1_func_return",
+    "value": 21.821489334106445
+  },
+  {
+    "base_name": "test_10_3_func",
+    "name": "test_bareawait_10_bareawait_3_func_return",
+    "value": 29.292777180671692
+  },
+  {
+    "base_name": "test_10_10_func",
+    "name": "test_bareawait_10_bareawait_10_func_return",
+    "value": 53.269386291503906
+  },
+  {
+    "base_name": "test_1_deferred_blocked",
+    "name": "test_addCallback_1_succeed_deferred_blocked",
+    "value": 17.64735984802246
+  },
+  {
+    "base_name": "test_1_deferred",
+    "name": "test_addCallback_1_succeed_deferred",
+    "value": 10.732171535491943
+  },
+  {
+    "base_name": "test_3_deferred_blocked",
+    "name": "test_addCallback_3_succeed_deferred_blocked",
+    "value": 36.02962752422655
+  },
+  {
+    "base_name": "test_3_deferred",
+    "name": "test_addCallback_3_succeed_deferred",
+    "value": 20.787451640669122
+  },
+  {
+    "base_name": "test_10_deferred_blocked",
+    "name": "test_addCallback_10_succeed_deferred_blocked",
+    "value": 101.37913227081299
+  },
+  {
+    "base_name": "test_10_deferred",
+    "name": "test_addCallback_10_succeed_deferred",
+    "value": 56.79342269897461
+  },
+  {
+    "base_name": "test_1_deferred_blocked",
+    "name": "test_yield_1_succeed_deferred_return_blocked",
+    "value": 23.96351385116577
+  },
+  {
+    "base_name": "test_1_deferred",
+    "name": "test_yield_1_succeed_deferred_return",
+    "value": 13.400681972503662
+  },
+  {
+    "base_name": "test_3_deferred_blocked",
+    "name": "test_yield_3_succeed_deferred_return_blocked",
+    "value": 38.32155681518187
+  },
+  {
+    "base_name": "test_3_deferred",
+    "name": "test_yield_3_succeed_deferred_return",
+    "value": 16.27176784607301
+  },
+  {
+    "base_name": "test_10_deferred_blocked",
+    "name": "test_yield_10_succeed_deferred_return_blocked",
+    "value": 88.04590702056885
+  },
+  {
+    "base_name": "test_10_deferred",
+    "name": "test_yield_10_succeed_deferred_return",
+    "value": 26.7112398147583
+  },
+  {
+    "base_name": "test_1_deferred_blocked",
+    "name": "test_yield_1_deferred_return_blocked",
+    "value": 22.446378707885742
+  },
+  {
+    "base_name": "test_1_deferred",
+    "name": "test_yield_1_deferred_return",
+    "value": 11.791121006011963
+  },
+  {
+    "base_name": "test_3_deferred_blocked",
+    "name": "test_yield_3_deferred_return_blocked",
+    "value": 36.14845764206117
+  },
+  {
+    "base_name": "test_3_deferred",
+    "name": "test_yield_3_deferred_return",
+    "value": 14.835426606327655
+  },
+  {
+    "base_name": "test_10_deferred_blocked",
+    "name": "test_yield_10_deferred_return_blocked",
+    "value": 85.85015296936035
+  },
+  {
+    "base_name": "test_10_deferred",
+    "name": "test_yield_10_deferred_return",
+    "value": 25.33982276916504
+  },
+  {
+    "base_name": "test_1_1_deferred_blocked",
+    "name": "test_yield_1_yield_1_deferred_return_blocked",
+    "value": 36.698463439941406
+  },
+  {
+    "base_name": "test_1_1_deferred",
+    "name": "test_yield_1_yield_1_deferred_return",
+    "value": 24.138826847076416
+  },
+  {
+    "base_name": "test_1_3_deferred_blocked",
+    "name": "test_yield_1_yield_3_deferred_return_blocked",
+    "value": 65.63482945223889
+  },
+  {
+    "base_name": "test_1_3_deferred",
+    "name": "test_yield_1_yield_3_deferred_return",
+    "value": 39.40765398094453
+  },
+  {
+    "base_name": "test_3_1_deferred_blocked",
+    "name": "test_yield_3_yield_1_deferred_return_blocked",
+    "value": 80.48382293747132
+  },
+  {
+    "base_name": "test_3_1_deferred",
+    "name": "test_yield_3_yield_1_deferred_return",
+    "value": 51.38676855937544
+  },
+  {
+    "base_name": "test_3_3_deferred_blocked",
+    "name": "test_yield_3_yield_3_deferred_return_blocked",
+    "value": 171.26816402782094
+  },
+  {
+    "base_name": "test_3_3_deferred",
+    "name": "test_yield_3_yield_3_deferred_return",
+    "value": 95.16374414617366
+  },
+  {
+    "base_name": "test_10_1_deferred_blocked",
+    "name": "test_yield_10_yield_1_deferred_return_blocked",
+    "value": 244.548978805542
+  },
+  {
+    "base_name": "test_10_1_deferred",
+    "name": "test_yield_10_yield_1_deferred_return",
+    "value": 145.2417230606079
+  },
+  {
+    "base_name": "test_10_3_deferred_blocked",
+    "name": "test_yield_10_yield_3_deferred_return_blocked",
+    "value": 575.9459435939789
+  },
+  {
+    "base_name": "test_10_3_deferred",
+    "name": "test_yield_10_yield_3_deferred_return",
+    "value": 291.59577190876007
+  },
+  {
+    "base_name": "test_10_10_deferred_blocked",
+    "name": "test_yield_10_yield_10_deferred_return_blocked",
+    "value": 1780.3118705749512
+  },
+  {
+    "base_name": "test_10_10_deferred",
+    "name": "test_yield_10_yield_10_deferred_return",
+    "value": 807.9484462738037
+  },
+  {
+    "base_name": "test_1_1_deferred_blocked",
+    "name": "test_await_1_await_1_deferred_return_blocked",
+    "value": 52.54887914657593
+  },
+  {
+    "base_name": "test_1_1_deferred",
+    "name": "test_await_1_await_1_deferred_return",
+    "value": 33.82178783416748
+  },
+  {
+    "base_name": "test_1_3_deferred_blocked",
+    "name": "test_await_1_await_3_deferred_return_blocked",
+    "value": 96.94441255316677
+  },
+  {
+    "base_name": "test_1_3_deferred",
+    "name": "test_await_1_await_3_deferred_return",
+    "value": 55.41242461606681
+  },
+  {
+    "base_name": "test_3_1_deferred_blocked",
+    "name": "test_await_3_await_1_deferred_return_blocked",
+    "value": 120.80610229308347
+  },
+  {
+    "base_name": "test_3_1_deferred",
+    "name": "test_await_3_await_1_deferred_return",
+    "value": 73.03189944071941
+  },
+  {
+    "base_name": "test_3_3_deferred_blocked",
+    "name": "test_await_3_await_3_deferred_return_blocked",
+    "value": 256.4874215559526
+  },
+  {
+    "base_name": "test_3_3_deferred",
+    "name": "test_await_3_await_3_deferred_return",
+    "value": 137.73204630071467
+  },
+  {
+    "base_name": "test_10_1_deferred_blocked",
+    "name": "test_await_10_await_1_deferred_return_blocked",
+    "value": 360.680456161499
+  },
+  {
+    "base_name": "test_10_1_deferred",
+    "name": "test_await_10_await_1_deferred_return",
+    "value": 213.67462635040283
+  },
+  {
+    "base_name": "test_10_3_deferred_blocked",
+    "name": "test_await_10_await_3_deferred_return_blocked",
+    "value": 845.370814204216
+  },
+  {
+    "base_name": "test_10_3_deferred",
+    "name": "test_await_10_await_3_deferred_return",
+    "value": 427.26173996925354
+  },
+  {
+    "base_name": "test_10_10_deferred_blocked",
+    "name": "test_await_10_await_10_deferred_return_blocked",
+    "value": 2535.4570865631104
+  },
+  {
+    "base_name": "test_10_10_deferred",
+    "name": "test_await_10_await_10_deferred_return",
+    "value": 1175.5624294281006
+  },
+  {
+    "base_name": "test_1_1_deferred_blocked",
+    "name": "test_bareawait_1_bareawait_1_deferred_return_blocked",
+    "value": 29.140881538391113
+  },
+  {
+    "base_name": "test_1_1_deferred",
+    "name": "test_bareawait_1_bareawait_1_deferred_return",
+    "value": 16.360631942749023
+  },
+  {
+    "base_name": "test_1_3_deferred_blocked",
+    "name": "test_bareawait_1_bareawait_3_deferred_return_blocked",
+    "value": 48.44510842518634
+  },
+  {
+    "base_name": "test_1_3_deferred",
+    "name": "test_bareawait_1_bareawait_3_deferred_return",
+    "value": 20.88005140603307
+  },
+  {
+    "base_name": "test_3_1_deferred_blocked",
+    "name": "test_bareawait_3_bareawait_1_deferred_return_blocked",
+    "value": 49.97035681483257
+  },
+  {
+    "base_name": "test_3_1_deferred",
+    "name": "test_bareawait_3_bareawait_1_deferred_return",
+    "value": 22.40891485329134
+  },
+  {
+    "base_name": "test_3_3_deferred_blocked",
+    "name": "test_bareawait_3_bareawait_3_deferred_return_blocked",
+    "value": 107.25357749245383
+  },
+  {
+    "base_name": "test_3_3_deferred",
+    "name": "test_bareawait_3_bareawait_3_deferred_return",
+    "value": 34.51744426380504
+  },
+  {
+    "base_name": "test_10_1_deferred_blocked",
+    "name": "test_bareawait_10_bareawait_1_deferred_return_blocked",
+    "value": 121.65371417999268
+  },
+  {
+    "base_name": "test_10_1_deferred",
+    "name": "test_bareawait_10_bareawait_1_deferred_return",
+    "value": 41.19977951049805
+  },
+  {
+    "base_name": "test_10_3_deferred_blocked",
+    "name": "test_bareawait_10_bareawait_3_deferred_return_blocked",
+    "value": 316.1115199327469
+  },
+  {
+    "base_name": "test_10_3_deferred",
+    "name": "test_bareawait_10_bareawait_3_deferred_return",
+    "value": 82.90748298168182
+  },
+  {
+    "base_name": "test_10_10_deferred_blocked",
+    "name": "test_bareawait_10_bareawait_10_deferred_return_blocked",
+    "value": 1042.817497253418
+  },
+  {
+    "base_name": "test_10_10_deferred",
+    "name": "test_bareawait_10_bareawait_10_deferred_return",
+    "value": 213.5352611541748
+  }
+]

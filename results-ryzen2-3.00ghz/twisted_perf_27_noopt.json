@@ -1,0 +1,407 @@
+[
+  {
+    "base_name": null, 
+    "name": "warmup", 
+    "value": 9.247588157653809
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_deferred", 
+    "value": 5.390893936157227
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_deferred_blocked", 
+    "value": 9.07196569442749
+  }, 
+  {
+    "base_name": "test_deferred", 
+    "name": "test_inline_deferred", 
+    "value": 18.678560256958008
+  }, 
+  {
+    "base_name": "test_deferred", 
+    "name": "test_inline_deferred_blocked", 
+    "value": 22.493835926055908
+  }, 
+  {
+    "base_name": "test_deferred", 
+    "name": "test_return_deferred", 
+    "value": 5.511152267456055
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_1_func", 
+    "value": 2.5146679878234863
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_3_func", 
+    "value": 2.6991568415997977
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_func", 
+    "value": 3.3107614517211914
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_1_1_func", 
+    "value": 2.8624701499938965
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_1_3_func", 
+    "value": 3.019294106816671
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_3_1_func", 
+    "value": 3.430174057742199
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_3_3_func", 
+    "value": 4.0085272355513135
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_1_func", 
+    "value": 5.806798934936523
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_3_func", 
+    "value": 7.5534433126449585
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_10_func", 
+    "value": 12.879610061645508
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_1_deferred_blocked", 
+    "value": 5.243175983428955
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_1_deferred", 
+    "value": 5.24399995803833
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_3_deferred_blocked", 
+    "value": 10.645379503089261
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_3_deferred", 
+    "value": 9.882590856896826
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_deferred_blocked", 
+    "value": 30.723958015441895
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_deferred", 
+    "value": 25.4624605178833
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_1_1_deferred_blocked", 
+    "value": 5.495573997497559
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_1_1_deferred", 
+    "value": 5.498370170593262
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_1_3_deferred_blocked", 
+    "value": 10.973572731018066
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_1_3_deferred", 
+    "value": 10.148663118661169
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_3_1_deferred_blocked", 
+    "value": 11.395464460533786
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_3_1_deferred", 
+    "value": 10.728566043348197
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_3_3_deferred_blocked", 
+    "value": 28.291108391501687
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_3_3_deferred", 
+    "value": 24.203963713212445
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_1_deferred_blocked", 
+    "value": 33.030099868774414
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_1_deferred", 
+    "value": 28.61083984375
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_3_deferred_blocked", 
+    "value": 99.23906624317169
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_3_deferred", 
+    "value": 72.75986671447754
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_10_deferred_blocked", 
+    "value": 396.901798248291
+  }, 
+  {
+    "base_name": null, 
+    "name": "test_10_10_deferred", 
+    "value": 224.05123710632324
+  }, 
+  {
+    "base_name": "test_1_func", 
+    "name": "test_addCallback_1_succeed_func", 
+    "value": 9.192317962646484
+  }, 
+  {
+    "base_name": "test_3_func", 
+    "name": "test_addCallback_3_succeed_func", 
+    "value": 15.481831079506012
+  }, 
+  {
+    "base_name": "test_10_func", 
+    "name": "test_addCallback_10_succeed_func", 
+    "value": 37.583699226379395
+  }, 
+  {
+    "base_name": "test_1_func", 
+    "name": "test_yield_1_func_returnValue", 
+    "value": 13.59059190750122
+  }, 
+  {
+    "base_name": "test_3_func", 
+    "name": "test_yield_3_func_returnValue", 
+    "value": 13.61030124756227
+  }, 
+  {
+    "base_name": "test_10_func", 
+    "name": "test_yield_10_func_returnValue", 
+    "value": 13.583040237426758
+  }, 
+  {
+    "base_name": "test_1_1_func", 
+    "name": "test_yield_1_yield_1_func_returnValue", 
+    "value": 40.267133712768555
+  }, 
+  {
+    "base_name": "test_1_3_func", 
+    "name": "test_yield_1_yield_3_func_returnValue", 
+    "value": 69.84283694301743
+  }, 
+  {
+    "base_name": "test_3_1_func", 
+    "name": "test_yield_3_yield_1_func_returnValue", 
+    "value": 96.51143292346633
+  }, 
+  {
+    "base_name": "test_3_3_func", 
+    "name": "test_yield_3_yield_3_func_returnValue", 
+    "value": 181.82970827276057
+  }, 
+  {
+    "base_name": "test_10_1_func", 
+    "name": "test_yield_10_yield_1_func_returnValue", 
+    "value": 291.51286125183105
+  }, 
+  {
+    "base_name": "test_10_3_func", 
+    "name": "test_yield_10_yield_3_func_returnValue", 
+    "value": 577.7053833007812
+  }, 
+  {
+    "base_name": "test_10_10_func", 
+    "name": "test_yield_10_yield_10_func_returnValue", 
+    "value": 1570.5307960510254
+  }, 
+  {
+    "base_name": "test_1_deferred_blocked", 
+    "name": "test_addCallback_1_succeed_deferred_blocked", 
+    "value": 18.620055675506592
+  }, 
+  {
+    "base_name": "test_1_deferred", 
+    "name": "test_addCallback_1_succeed_deferred", 
+    "value": 12.238865852355957
+  }, 
+  {
+    "base_name": "test_3_deferred_blocked", 
+    "name": "test_addCallback_3_succeed_deferred_blocked", 
+    "value": 38.45429564096842
+  }, 
+  {
+    "base_name": "test_3_deferred", 
+    "name": "test_addCallback_3_succeed_deferred", 
+    "value": 25.121736239237958
+  }, 
+  {
+    "base_name": "test_10_deferred_blocked", 
+    "name": "test_addCallback_10_succeed_deferred_blocked", 
+    "value": 107.60583877563477
+  }, 
+  {
+    "base_name": "test_10_deferred", 
+    "name": "test_addCallback_10_succeed_deferred", 
+    "value": 69.66477870941162
+  }, 
+  {
+    "base_name": "test_1_deferred_blocked", 
+    "name": "test_yield_1_succeed_deferred_returnValue_blocked", 
+    "value": 32.1698579788208
+  }, 
+  {
+    "base_name": "test_1_deferred", 
+    "name": "test_yield_1_succeed_deferred_returnValue", 
+    "value": 27.69593381881714
+  }, 
+  {
+    "base_name": "test_3_deferred_blocked", 
+    "name": "test_yield_3_succeed_deferred_returnValue_blocked", 
+    "value": 48.81857820304043
+  }, 
+  {
+    "base_name": "test_3_deferred", 
+    "name": "test_yield_3_succeed_deferred_returnValue", 
+    "value": 43.608162776533376
+  }, 
+  {
+    "base_name": "test_10_deferred_blocked", 
+    "name": "test_yield_10_succeed_deferred_returnValue_blocked", 
+    "value": 107.79072284698486
+  }, 
+  {
+    "base_name": "test_10_deferred", 
+    "name": "test_yield_10_succeed_deferred_returnValue", 
+    "value": 96.69280052185059
+  }, 
+  {
+    "base_name": "test_1_deferred_blocked", 
+    "name": "test_yield_1_deferred_returnValue_blocked", 
+    "value": 23.940824031829834
+  }, 
+  {
+    "base_name": "test_1_deferred", 
+    "name": "test_yield_1_deferred_returnValue", 
+    "value": 20.258902072906494
+  }, 
+  {
+    "base_name": "test_3_deferred_blocked", 
+    "name": "test_yield_3_deferred_returnValue_blocked", 
+    "value": 40.17998080655753
+  }, 
+  {
+    "base_name": "test_3_deferred", 
+    "name": "test_yield_3_deferred_returnValue", 
+    "value": 35.93098111899502
+  }, 
+  {
+    "base_name": "test_10_deferred_blocked", 
+    "name": "test_yield_10_deferred_returnValue_blocked", 
+    "value": 99.32928085327148
+  }, 
+  {
+    "base_name": "test_10_deferred", 
+    "name": "test_yield_10_deferred_returnValue", 
+    "value": 88.1863021850586
+  }, 
+  {
+    "base_name": "test_1_1_deferred_blocked", 
+    "name": "test_yield_1_yield_1_deferred_returnValue_blocked", 
+    "value": 49.23084020614624
+  }, 
+  {
+    "base_name": "test_1_1_deferred", 
+    "name": "test_yield_1_yield_1_deferred_returnValue", 
+    "value": 47.81297016143799
+  }, 
+  {
+    "base_name": "test_1_3_deferred_blocked", 
+    "name": "test_yield_1_yield_3_deferred_returnValue_blocked", 
+    "value": 93.1645488164511
+  }, 
+  {
+    "base_name": "test_1_3_deferred", 
+    "name": "test_yield_1_yield_3_deferred_returnValue", 
+    "value": 95.47134910721377
+  }, 
+  {
+    "base_name": "test_3_1_deferred_blocked", 
+    "name": "test_yield_3_yield_1_deferred_returnValue_blocked", 
+    "value": 128.36322870599219
+  }, 
+  {
+    "base_name": "test_3_1_deferred", 
+    "name": "test_yield_3_yield_1_deferred_returnValue", 
+    "value": 118.56191560446499
+  }, 
+  {
+    "base_name": "test_3_3_deferred_blocked", 
+    "name": "test_yield_3_yield_3_deferred_returnValue_blocked", 
+    "value": 255.56188930164683
+  }, 
+  {
+    "base_name": "test_3_3_deferred", 
+    "name": "test_yield_3_yield_3_deferred_returnValue", 
+    "value": 248.44592701305044
+  }, 
+  {
+    "base_name": "test_10_1_deferred_blocked", 
+    "name": "test_yield_10_yield_1_deferred_returnValue_blocked", 
+    "value": 371.0547399520874
+  }, 
+  {
+    "base_name": "test_10_1_deferred", 
+    "name": "test_yield_10_yield_1_deferred_returnValue", 
+    "value": 365.7719039916992
+  }, 
+  {
+    "base_name": "test_10_3_deferred_blocked", 
+    "name": "test_yield_10_yield_3_deferred_returnValue_blocked", 
+    "value": 906.6561758518219
+  }, 
+  {
+    "base_name": "test_10_3_deferred", 
+    "name": "test_yield_10_yield_3_deferred_returnValue", 
+    "value": 794.6483790874481
+  }, 
+  {
+    "base_name": "test_10_10_deferred_blocked", 
+    "name": "test_yield_10_yield_10_deferred_returnValue_blocked", 
+    "value": 2747.2559928894043
+  }, 
+  {
+    "base_name": "test_10_10_deferred", 
+    "name": "test_yield_10_yield_10_deferred_returnValue", 
+    "value": 2310.8012199401855
+  }
+]

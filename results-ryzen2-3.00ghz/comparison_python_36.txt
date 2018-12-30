@@ -1,0 +1,330 @@
+warmup                                                : 9.01us vs 9.26us (+2.7% of min)
+test_deferred                                         : 5.62us vs 4.65us (-20.8% of min)
+test_deferred_blocked                                 : 9.01us vs 9.14us (+1.5% of min)
+test_inline_deferred                                  : 17.39us vs 11.20us (-55.4% of min)
+                                                      : without overhead evaluated in test_deferred:
+                                                      : 11.77us vs 6.54us (-79.9% of min)
+test_inline_deferred_blocked                          : 21.15us vs 21.26us (+0.6% of min)
+                                                      : without overhead evaluated in test_deferred:
+                                                      : 15.52us vs 16.61us (+7.0% of min)
+test_return_deferred                                  : 5.78us vs 4.89us (-18.3% of min)
+                                                      : without overhead evaluated in test_deferred:
+                                                      : 0.16us vs 0.23us (+48.2% of min)
+test_1_func                                           : 3.32us vs 3.37us (+1.5% of min)
+test_3_func                                           : 3.48us vs 3.32us (-4.8% of min)
+test_10_func                                          : 3.91us vs 3.96us (+1.4% of min)
+test_1_1_func                                         : 3.65us vs 3.73us (+2.4% of min)
+test_1_3_func                                         : 3.77us vs 3.90us (+3.6% of min)
+test_3_1_func                                         : 4.39us vs 4.42us (+0.6% of min)
+test_3_3_func                                         : 4.76us vs 4.90us (+3.0% of min)
+test_10_1_func                                        : 6.92us vs 7.01us (+1.4% of min)
+test_10_3_func                                        : 8.37us vs 8.31us (-0.6% of min)
+test_10_10_func                                       : 14.58us vs 12.83us (-13.6% of min)
+test_1_deferred_blocked                               : 5.59us vs 5.92us (+6.0% of min)
+test_1_deferred                                       : 5.58us vs 4.50us (-23.9% of min)
+test_3_deferred_blocked                               : 10.46us vs 11.44us (+9.4% of min)
+test_3_deferred                                       : 9.50us vs 6.22us (-52.6% of min)
+test_10_deferred_blocked                              : 28.56us vs 30.97us (+8.4% of min)
+test_10_deferred                                      : 23.59us vs 12.18us (-93.7% of min)
+test_1_1_deferred_blocked                             : 5.87us vs 6.21us (+5.9% of min)
+test_1_1_deferred                                     : 6.00us vs 4.84us (-24.0% of min)
+test_1_3_deferred_blocked                             : 10.88us vs 11.49us (+5.7% of min)
+test_1_3_deferred                                     : 10.21us vs 6.58us (-55.2% of min)
+test_3_1_deferred_blocked                             : 11.59us vs 12.24us (+5.6% of min)
+test_3_1_deferred                                     : 10.97us vs 7.30us (-50.3% of min)
+test_3_3_deferred_blocked                             : 26.39us vs 28.80us (+9.1% of min)
+test_3_3_deferred                                     : 22.71us vs 12.27us (-85.2% of min)
+test_10_1_deferred_blocked                            : 32.21us vs 34.43us (+6.9% of min)
+test_10_1_deferred                                    : 28.10us vs 15.85us (-77.4% of min)
+test_10_3_deferred_blocked                            : 88.24us vs 96.90us (+9.8% of min)
+test_10_3_deferred                                    : 67.26us vs 31.82us (-111.3% of min)
+test_10_10_deferred_blocked                           : 325.84us vs 380.69us (+16.8% of min)
+test_10_10_deferred                                   : 207.96us vs 89.91us (-131.3% of min)
+test_addCallback_1_succeed_func                       : 9.43us vs 8.81us (-7.0% of min)
+                                                      : without overhead evaluated in test_1_func:
+                                                      : 6.11us vs 5.44us (-12.3% of min)
+test_addCallback_3_succeed_func                       : 15.56us vs 14.77us (-5.3% of min)
+                                                      : without overhead evaluated in test_3_func:
+                                                      : 12.08us vs 11.45us (-5.5% of min)
+test_addCallback_10_succeed_func                      : 35.87us vs 35.22us (-1.9% of min)
+                                                      : without overhead evaluated in test_10_func:
+                                                      : 31.97us vs 31.26us (-2.3% of min)
+test_yield_1_func_succeed_returnValue                 : 19.46us vs 12.42us (-56.6% of min)
+                                                      : without overhead evaluated in test_1_func:
+                                                      : 16.14us vs 9.05us (-78.2% of min)
+test_yield_3_func_succeed_returnValue                 : 20.36us vs 13.15us (-54.9% of min)
+                                                      : without overhead evaluated in test_3_func:
+                                                      : 16.88us vs 9.83us (-71.8% of min)
+test_yield_10_func_succeed_returnValue                : 23.36us vs 15.21us (-53.5% of min)
+                                                      : without overhead evaluated in test_10_func:
+                                                      : 19.45us vs 11.25us (-72.9% of min)
+test_yield_1_func_succeed_return                      : 18.39us vs 11.89us (-54.7% of min)
+                                                      : without overhead evaluated in test_1_func:
+                                                      : 15.07us vs 8.52us (-76.9% of min)
+test_yield_3_func_succeed_return                      : 19.31us vs 12.43us (-55.4% of min)
+                                                      : without overhead evaluated in test_3_func:
+                                                      : 15.83us vs 9.11us (-73.9% of min)
+test_yield_10_func_succeed_return                     : 22.37us vs 14.49us (-54.4% of min)
+                                                      : without overhead evaluated in test_10_func:
+                                                      : 18.46us vs 10.53us (-75.4% of min)
+test_yield_1_func_returnValue                         : 11.80us vs 10.77us (-9.5% of min)
+                                                      : without overhead evaluated in test_1_func:
+                                                      : 8.47us vs 7.40us (-14.4% of min)
+test_yield_3_func_returnValue                         : 12.66us vs 11.31us (-11.9% of min)
+                                                      : without overhead evaluated in test_3_func:
+                                                      : 9.18us vs 7.99us (-14.9% of min)
+test_yield_10_func_returnValue                        : 15.71us vs 13.19us (-19.1% of min)
+                                                      : without overhead evaluated in test_10_func:
+                                                      : 11.80us vs 9.23us (-27.9% of min)
+test_yield_1_func_return                              : 11.79us vs 10.61us (-11.2% of min)
+                                                      : without overhead evaluated in test_1_func:
+                                                      : 8.47us vs 7.24us (-17.0% of min)
+test_yield_3_func_return                              : 11.76us vs 10.59us (-11.0% of min)
+                                                      : without overhead evaluated in test_3_func:
+                                                      : 8.28us vs 7.27us (-13.9% of min)
+test_yield_10_func_return                             : 11.82us vs 10.66us (-10.9% of min)
+                                                      : without overhead evaluated in test_10_func:
+                                                      : 7.91us vs 6.69us (-18.2% of min)
+test_yield_1_yield_1_func_return                      : 33.61us vs 22.50us (-49.4% of min)
+                                                      : without overhead evaluated in test_1_1_func:
+                                                      : 29.97us vs 18.77us (-59.7% of min)
+test_yield_1_yield_3_func_return                      : 56.80us vs 34.31us (-65.6% of min)
+                                                      : without overhead evaluated in test_1_3_func:
+                                                      : 53.03us vs 30.40us (-74.4% of min)
+test_yield_3_yield_1_func_return                      : 78.79us vs 45.67us (-72.5% of min)
+                                                      : without overhead evaluated in test_3_1_func:
+                                                      : 74.40us vs 41.26us (-80.3% of min)
+test_yield_3_yield_3_func_return                      : 148.97us vs 80.52us (-85.0% of min)
+                                                      : without overhead evaluated in test_3_3_func:
+                                                      : 144.21us vs 75.62us (-90.7% of min)
+test_yield_10_yield_1_func_return                     : 237.62us vs 128.08us (-85.5% of min)
+                                                      : without overhead evaluated in test_10_1_func:
+                                                      : 230.70us vs 121.07us (-90.6% of min)
+test_yield_10_yield_3_func_return                     : 465.77us vs 243.28us (-91.5% of min)
+                                                      : without overhead evaluated in test_10_3_func:
+                                                      : 457.40us vs 234.97us (-94.7% of min)
+test_yield_10_yield_10_func_return                    : 1279.56us vs 646.96us (-97.8% of min)
+                                                      : without overhead evaluated in test_10_10_func:
+                                                      : 1264.99us vs 634.13us (-99.5% of min)
+test_await_1_await_1_func_return                      : 33.80us vs 31.87us (-6.0% of min)
+                                                      : without overhead evaluated in test_1_1_func:
+                                                      : 30.15us vs 28.14us (-7.2% of min)
+test_await_1_await_3_func_return                      : 53.98us vs 50.01us (-7.9% of min)
+                                                      : without overhead evaluated in test_1_3_func:
+                                                      : 50.21us vs 46.10us (-8.9% of min)
+test_await_3_await_1_func_return                      : 74.22us vs 67.98us (-9.2% of min)
+                                                      : without overhead evaluated in test_3_1_func:
+                                                      : 69.83us vs 63.57us (-9.8% of min)
+test_await_3_await_3_func_return                      : 131.30us vs 120.51us (-9.0% of min)
+                                                      : without overhead evaluated in test_3_3_func:
+                                                      : 126.54us vs 115.61us (-9.5% of min)
+test_await_10_await_1_func_return                     : 210.23us vs 193.11us (-8.9% of min)
+                                                      : without overhead evaluated in test_10_1_func:
+                                                      : 203.31us vs 186.10us (-9.3% of min)
+test_await_10_await_3_func_return                     : 406.42us vs 367.93us (-10.5% of min)
+                                                      : without overhead evaluated in test_10_3_func:
+                                                      : 398.05us vs 359.62us (-10.7% of min)
+test_await_10_await_10_func_return                    : 1081.63us vs 987.34us (-9.5% of min)
+                                                      : without overhead evaluated in test_10_10_func:
+                                                      : 1067.05us vs 974.51us (-9.5% of min)
+test_bareawait_1_bareawait_1_func_return              : 14.54us vs 13.76us (-5.6% of min)
+                                                      : without overhead evaluated in test_1_1_func:
+                                                      : 10.89us vs 10.03us (-8.5% of min)
+test_bareawait_1_bareawait_3_func_return              : 15.29us vs 14.69us (-4.0% of min)
+                                                      : without overhead evaluated in test_1_3_func:
+                                                      : 11.52us vs 10.79us (-6.7% of min)
+test_bareawait_3_bareawait_1_func_return              : 16.23us vs 15.86us (-2.3% of min)
+                                                      : without overhead evaluated in test_3_1_func:
+                                                      : 11.84us vs 11.44us (-3.4% of min)
+test_bareawait_3_bareawait_3_func_return              : 18.37us vs 18.11us (-1.5% of min)
+                                                      : without overhead evaluated in test_3_3_func:
+                                                      : 13.62us vs 13.21us (-3.1% of min)
+test_bareawait_10_bareawait_1_func_return             : 21.92us vs 21.82us (-0.4% of min)
+                                                      : without overhead evaluated in test_10_1_func:
+                                                      : 15.00us vs 14.81us (-1.3% of min)
+test_bareawait_10_bareawait_3_func_return             : 29.54us vs 29.29us (-0.8% of min)
+                                                      : without overhead evaluated in test_10_3_func:
+                                                      : 21.17us vs 20.98us (-0.9% of min)
+test_bareawait_10_bareawait_10_func_return            : 53.13us vs 53.27us (+0.3% of min)
+                                                      : without overhead evaluated in test_10_10_func:
+                                                      : 38.55us vs 40.44us (+4.9% of min)
+test_addCallback_1_succeed_deferred_blocked           : 18.82us vs 17.65us (-6.7% of min)
+                                                      : without overhead evaluated in test_1_deferred_blocked:
+                                                      : 13.23us vs 11.72us (-12.9% of min)
+test_addCallback_1_succeed_deferred                   : 12.48us vs 10.73us (-16.3% of min)
+                                                      : without overhead evaluated in test_1_deferred:
+                                                      : 6.90us vs 6.23us (-10.8% of min)
+test_addCallback_3_succeed_deferred_blocked           : 37.26us vs 36.03us (-3.4% of min)
+                                                      : without overhead evaluated in test_3_deferred_blocked:
+                                                      : 26.80us vs 24.59us (-9.0% of min)
+test_addCallback_3_succeed_deferred                   : 24.43us vs 20.79us (-17.5% of min)
+                                                      : without overhead evaluated in test_3_deferred:
+                                                      : 14.93us vs 14.56us (-2.5% of min)
+test_addCallback_10_succeed_deferred_blocked          : 100.72us vs 101.38us (+0.7% of min)
+                                                      : without overhead evaluated in test_10_deferred_blocked:
+                                                      : 72.16us vs 70.41us (-2.5% of min)
+test_addCallback_10_succeed_deferred                  : 66.25us vs 56.79us (-16.6% of min)
+                                                      : without overhead evaluated in test_10_deferred:
+                                                      : 42.66us vs 44.61us (+4.6% of min)
+test_yield_1_succeed_deferred_return_blocked          : 29.79us vs 23.96us (-24.3% of min)
+                                                      : without overhead evaluated in test_1_deferred_blocked:
+                                                      : 24.20us vs 18.04us (-34.2% of min)
+test_yield_1_succeed_deferred_return                  : 25.00us vs 13.40us (-86.5% of min)
+                                                      : without overhead evaluated in test_1_deferred:
+                                                      : 19.42us vs 8.90us (-118.3% of min)
+test_yield_3_succeed_deferred_return_blocked          : 44.05us vs 38.32us (-15.0% of min)
+                                                      : without overhead evaluated in test_3_deferred_blocked:
+                                                      : 33.59us vs 26.88us (-25.0% of min)
+test_yield_3_succeed_deferred_return                  : 38.09us vs 16.27us (-134.1% of min)
+                                                      : without overhead evaluated in test_3_deferred:
+                                                      : 28.59us vs 10.05us (-184.5% of min)
+test_yield_10_succeed_deferred_return_blocked         : 94.64us vs 88.05us (-7.5% of min)
+                                                      : without overhead evaluated in test_10_deferred_blocked:
+                                                      : 66.08us vs 57.08us (-15.8% of min)
+test_yield_10_succeed_deferred_return                 : 84.38us vs 26.71us (-215.9% of min)
+                                                      : without overhead evaluated in test_10_deferred:
+                                                      : 60.79us vs 14.53us (-318.4% of min)
+test_yield_1_deferred_return_blocked                  : 22.29us vs 22.45us (+0.7% of min)
+                                                      : without overhead evaluated in test_1_deferred_blocked:
+                                                      : 16.71us vs 16.52us (-1.1% of min)
+test_yield_1_deferred_return                          : 18.14us vs 11.79us (-53.8% of min)
+                                                      : without overhead evaluated in test_1_deferred:
+                                                      : 12.56us vs 7.29us (-72.4% of min)
+test_yield_3_deferred_return_blocked                  : 36.41us vs 36.15us (-0.7% of min)
+                                                      : without overhead evaluated in test_3_deferred_blocked:
+                                                      : 25.95us vs 24.71us (-5.0% of min)
+test_yield_3_deferred_return                          : 31.62us vs 14.84us (-113.1% of min)
+                                                      : without overhead evaluated in test_3_deferred:
+                                                      : 22.12us vs 8.61us (-156.9% of min)
+test_yield_10_deferred_return_blocked                 : 87.26us vs 85.85us (-1.6% of min)
+                                                      : without overhead evaluated in test_10_deferred_blocked:
+                                                      : 58.70us vs 54.88us (-7.0% of min)
+test_yield_10_deferred_return                         : 78.71us vs 25.34us (-210.6% of min)
+                                                      : without overhead evaluated in test_10_deferred:
+                                                      : 55.12us vs 13.16us (-318.9% of min)
+test_yield_1_yield_1_deferred_return_blocked          : 43.46us vs 36.70us (-18.4% of min)
+                                                      : without overhead evaluated in test_1_1_deferred_blocked:
+                                                      : 37.60us vs 30.49us (-23.3% of min)
+test_yield_1_yield_1_deferred_return                  : 40.68us vs 24.14us (-68.5% of min)
+                                                      : without overhead evaluated in test_1_1_deferred:
+                                                      : 34.68us vs 19.30us (-79.7% of min)
+test_yield_1_yield_3_deferred_return_blocked          : 80.31us vs 65.63us (-22.4% of min)
+                                                      : without overhead evaluated in test_1_3_deferred_blocked:
+                                                      : 69.43us vs 54.14us (-28.2% of min)
+test_yield_1_yield_3_deferred_return                  : 77.52us vs 39.41us (-96.7% of min)
+                                                      : without overhead evaluated in test_1_3_deferred:
+                                                      : 67.30us vs 32.83us (-105.0% of min)
+test_yield_3_yield_1_deferred_return_blocked          : 101.95us vs 80.48us (-26.7% of min)
+                                                      : without overhead evaluated in test_3_1_deferred_blocked:
+                                                      : 90.36us vs 68.25us (-32.4% of min)
+test_yield_3_yield_1_deferred_return                  : 99.58us vs 51.39us (-93.8% of min)
+                                                      : without overhead evaluated in test_3_1_deferred:
+                                                      : 88.60us vs 44.08us (-101.0% of min)
+test_yield_3_yield_3_deferred_return_blocked          : 214.21us vs 171.27us (-25.1% of min)
+                                                      : without overhead evaluated in test_3_3_deferred_blocked:
+                                                      : 187.83us vs 142.47us (-31.8% of min)
+test_yield_3_yield_3_deferred_return                  : 209.33us vs 95.16us (-120.0% of min)
+                                                      : without overhead evaluated in test_3_3_deferred:
+                                                      : 186.62us vs 82.90us (-125.1% of min)
+test_yield_10_yield_1_deferred_return_blocked         : 311.44us vs 244.55us (-27.4% of min)
+                                                      : without overhead evaluated in test_10_1_deferred_blocked:
+                                                      : 279.23us vs 210.12us (-32.9% of min)
+test_yield_10_yield_1_deferred_return                 : 305.94us vs 145.24us (-110.6% of min)
+                                                      : without overhead evaluated in test_10_1_deferred:
+                                                      : 277.84us vs 129.40us (-114.7% of min)
+test_yield_10_yield_3_deferred_return_blocked         : 729.84us vs 575.95us (-26.7% of min)
+                                                      : without overhead evaluated in test_10_3_deferred_blocked:
+                                                      : 641.60us vs 479.05us (-33.9% of min)
+test_yield_10_yield_3_deferred_return                 : 668.75us vs 291.60us (-129.3% of min)
+                                                      : without overhead evaluated in test_10_3_deferred:
+                                                      : 601.49us vs 259.77us (-131.5% of min)
+test_yield_10_yield_10_deferred_return_blocked        : 2168.05us vs 1780.31us (-21.8% of min)
+                                                      : without overhead evaluated in test_10_10_deferred_blocked:
+                                                      : 1842.21us vs 1399.62us (-31.6% of min)
+test_yield_10_yield_10_deferred_return                : 1956.85us vs 807.95us (-142.2% of min)
+                                                      : without overhead evaluated in test_10_10_deferred:
+                                                      : 1748.89us vs 718.04us (-143.6% of min)
+test_await_1_await_1_deferred_return_blocked          : 58.50us vs 52.55us (-11.3% of min)
+                                                      : without overhead evaluated in test_1_1_deferred_blocked:
+                                                      : 52.63us vs 46.34us (-13.6% of min)
+test_await_1_await_1_deferred_return                  : 36.85us vs 33.82us (-9.0% of min)
+                                                      : without overhead evaluated in test_1_1_deferred:
+                                                      : 30.86us vs 28.98us (-6.5% of min)
+test_await_1_await_3_deferred_return_blocked          : 111.59us vs 96.94us (-15.1% of min)
+                                                      : without overhead evaluated in test_1_3_deferred_blocked:
+                                                      : 100.71us vs 85.45us (-17.9% of min)
+test_await_1_await_3_deferred_return                  : 63.17us vs 55.41us (-14.0% of min)
+                                                      : without overhead evaluated in test_1_3_deferred:
+                                                      : 52.96us vs 48.83us (-8.4% of min)
+test_await_3_await_1_deferred_return_blocked          : 142.94us vs 120.81us (-18.3% of min)
+                                                      : without overhead evaluated in test_3_1_deferred_blocked:
+                                                      : 131.35us vs 108.57us (-21.0% of min)
+test_await_3_await_1_deferred_return                  : 82.49us vs 73.03us (-13.0% of min)
+                                                      : without overhead evaluated in test_3_1_deferred:
+                                                      : 71.52us vs 65.73us (-8.8% of min)
+test_await_3_await_3_deferred_return_blocked          : 302.63us vs 256.49us (-18.0% of min)
+                                                      : without overhead evaluated in test_3_3_deferred_blocked:
+                                                      : 276.24us vs 227.69us (-21.3% of min)
+test_await_3_await_3_deferred_return                  : 160.04us vs 137.73us (-16.2% of min)
+                                                      : without overhead evaluated in test_3_3_deferred:
+                                                      : 137.33us vs 125.47us (-9.5% of min)
+test_await_10_await_1_deferred_return_blocked         : 442.38us vs 360.68us (-22.7% of min)
+                                                      : without overhead evaluated in test_10_1_deferred_blocked:
+                                                      : 410.18us vs 326.25us (-25.7% of min)
+test_await_10_await_1_deferred_return                 : 240.02us vs 213.67us (-12.3% of min)
+                                                      : without overhead evaluated in test_10_1_deferred:
+                                                      : 211.91us vs 197.83us (-7.1% of min)
+test_await_10_await_3_deferred_return_blocked         : 1020.17us vs 845.37us (-20.7% of min)
+                                                      : without overhead evaluated in test_10_3_deferred_blocked:
+                                                      : 931.93us vs 748.47us (-24.5% of min)
+test_await_10_await_3_deferred_return                 : 499.49us vs 427.26us (-16.9% of min)
+                                                      : without overhead evaluated in test_10_3_deferred:
+                                                      : 432.23us vs 395.44us (-9.3% of min)
+test_await_10_await_10_deferred_return_blocked        : 3064.26us vs 2535.46us (-20.9% of min)
+                                                      : without overhead evaluated in test_10_10_deferred_blocked:
+                                                      : 2738.42us vs 2154.76us (-27.1% of min)
+test_await_10_await_10_deferred_return                : 1389.44us vs 1175.56us (-18.2% of min)
+                                                      : without overhead evaluated in test_10_10_deferred:
+                                                      : 1181.48us vs 1085.66us (-8.8% of min)
+test_bareawait_1_bareawait_1_deferred_return_blocked  : 29.00us vs 29.14us (+0.5% of min)
+                                                      : without overhead evaluated in test_1_1_deferred_blocked:
+                                                      : 23.14us vs 22.93us (-0.9% of min)
+test_bareawait_1_bareawait_1_deferred_return          : 18.79us vs 16.36us (-14.9% of min)
+                                                      : without overhead evaluated in test_1_1_deferred:
+                                                      : 12.79us vs 11.52us (-11.0% of min)
+test_bareawait_1_bareawait_3_deferred_return_blocked  : 48.79us vs 48.45us (-0.7% of min)
+                                                      : without overhead evaluated in test_1_3_deferred_blocked:
+                                                      : 37.91us vs 36.95us (-2.6% of min)
+test_bareawait_1_bareawait_3_deferred_return          : 24.99us vs 20.88us (-19.7% of min)
+                                                      : without overhead evaluated in test_1_3_deferred:
+                                                      : 14.78us vs 14.30us (-3.3% of min)
+test_bareawait_3_bareawait_1_deferred_return_blocked  : 50.81us vs 49.97us (-1.7% of min)
+                                                      : without overhead evaluated in test_3_1_deferred_blocked:
+                                                      : 39.22us vs 37.73us (-4.0% of min)
+test_bareawait_3_bareawait_1_deferred_return          : 26.66us vs 22.41us (-19.0% of min)
+                                                      : without overhead evaluated in test_3_1_deferred:
+                                                      : 15.68us vs 15.11us (-3.8% of min)
+test_bareawait_3_bareawait_3_deferred_return_blocked  : 107.65us vs 107.25us (-0.4% of min)
+                                                      : without overhead evaluated in test_3_3_deferred_blocked:
+                                                      : 81.26us vs 78.46us (-3.6% of min)
+test_bareawait_3_bareawait_3_deferred_return          : 46.39us vs 34.52us (-34.4% of min)
+                                                      : without overhead evaluated in test_3_3_deferred:
+                                                      : 23.68us vs 22.25us (-6.4% of min)
+test_bareawait_10_bareawait_1_deferred_return_blocked : 123.92us vs 121.65us (-1.9% of min)
+                                                      : without overhead evaluated in test_10_1_deferred_blocked:
+                                                      : 91.72us vs 87.22us (-5.2% of min)
+test_bareawait_10_bareawait_1_deferred_return         : 54.50us vs 41.20us (-32.3% of min)
+                                                      : without overhead evaluated in test_10_1_deferred:
+                                                      : 26.40us vs 25.35us (-4.1% of min)
+test_bareawait_10_bareawait_3_deferred_return_blocked : 322.39us vs 316.11us (-2.0% of min)
+                                                      : without overhead evaluated in test_10_3_deferred_blocked:
+                                                      : 234.14us vs 219.21us (-6.8% of min)
+test_bareawait_10_bareawait_3_deferred_return         : 122.37us vs 82.91us (-47.6% of min)
+                                                      : without overhead evaluated in test_10_3_deferred:
+                                                      : 55.12us vs 51.08us (-7.9% of min)
+test_bareawait_10_bareawait_10_deferred_return_blocked: 1067.64us vs 1042.82us (-2.4% of min)
+                                                      : without overhead evaluated in test_10_10_deferred_blocked:
+                                                      : 741.80us vs 662.12us (-12.0% of min)
+test_bareawait_10_bareawait_10_deferred_return        : 354.42us vs 213.54us (-66.0% of min)
+                                                      : without overhead evaluated in test_10_10_deferred:
+                                                      : 146.47us vs 123.63us (-18.5% of min)
