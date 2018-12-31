@@ -1,177 +1,225 @@
-warmup                                             : 9.25us vs 9.02us (-2.5% of min)
-test_deferred                                      : 5.39us vs 3.94us (-36.9% of min)
-test_deferred_blocked                              : 9.07us vs 8.93us (-1.6% of min)
-test_inline_deferred                               : 18.68us vs 11.78us (-58.6% of min)
+warmup                                             : 9.25us vs 9.02us (-1.025x diff)
+test_deferred                                      : 5.39us vs 3.94us (-1.369x diff)
+test_deferred_blocked                              : 9.07us vs 8.93us (-1.016x diff)
+test_inline_deferred                               : 18.68us vs 11.78us (-1.586x diff)
                                                    : without overhead evaluated in test_deferred:
-                                                   : 13.29us vs 7.84us (-69.5% of min)
-test_inline_deferred_blocked                       : 22.49us vs 22.49us (-0.0% of min)
+                                                   : 13.29us vs 7.84us (-1.695x diff)
+
+test_inline_deferred_blocked                       : 22.49us vs 22.49us (-1.000x diff)
                                                    : without overhead evaluated in test_deferred:
-                                                   : 17.10us vs 18.55us (+8.5% of min)
-test_return_deferred                               : 5.51us vs 4.06us (-35.9% of min)
+                                                   : 17.10us vs 18.55us (+1.085x diff)
+
+test_return_deferred                               : 5.51us vs 4.06us (-1.359x diff)
                                                    : without overhead evaluated in test_deferred:
-                                                   : 0.12us vs 0.12us (-1.7% of min)
-test_1_func                                        : 2.51us vs 2.51us (-0.3% of min)
-test_3_func                                        : 2.70us vs 2.66us (-1.6% of min)
-test_10_func                                       : 3.31us vs 3.18us (-4.1% of min)
-test_1_1_func                                      : 2.86us vs 2.77us (-3.3% of min)
-test_1_3_func                                      : 3.02us vs 2.94us (-2.5% of min)
-test_3_1_func                                      : 3.43us vs 3.41us (-0.6% of min)
-test_3_3_func                                      : 4.01us vs 4.02us (+0.4% of min)
-test_10_1_func                                     : 5.81us vs 5.60us (-3.6% of min)
-test_10_3_func                                     : 7.55us vs 7.47us (-1.1% of min)
-test_10_10_func                                    : 12.88us vs 12.74us (-1.1% of min)
-test_1_deferred_blocked                            : 5.24us vs 5.29us (+0.9% of min)
-test_1_deferred                                    : 5.24us vs 3.49us (-50.2% of min)
-test_3_deferred_blocked                            : 10.65us vs 10.98us (+3.1% of min)
-test_3_deferred                                    : 9.88us vs 5.34us (-85.1% of min)
-test_10_deferred_blocked                           : 30.72us vs 33.55us (+9.2% of min)
-test_10_deferred                                   : 25.46us vs 11.48us (-121.8% of min)
-test_1_1_deferred_blocked                          : 5.50us vs 5.46us (-0.6% of min)
-test_1_1_deferred                                  : 5.50us vs 3.90us (-41.1% of min)
-test_1_3_deferred_blocked                          : 10.97us vs 11.30us (+3.0% of min)
-test_1_3_deferred                                  : 10.15us vs 5.72us (-77.4% of min)
-test_3_1_deferred_blocked                          : 11.40us vs 11.84us (+3.9% of min)
-test_3_1_deferred                                  : 10.73us vs 6.29us (-70.5% of min)
-test_3_3_deferred_blocked                          : 28.29us vs 31.15us (+10.1% of min)
-test_3_3_deferred                                  : 24.20us vs 11.81us (-104.9% of min)
-test_10_1_deferred_blocked                         : 33.03us vs 36.16us (+9.5% of min)
-test_10_1_deferred                                 : 28.61us vs 14.05us (-103.7% of min)
-test_10_3_deferred_blocked                         : 99.24us vs 108.93us (+9.8% of min)
-test_10_3_deferred                                 : 72.76us vs 32.43us (-124.3% of min)
-test_10_10_deferred_blocked                        : 396.90us vs 418.59us (+5.5% of min)
-test_10_10_deferred                                : 224.05us vs 95.50us (-134.6% of min)
-test_addCallback_1_succeed_func                    : 9.19us vs 7.94us (-15.7% of min)
+                                                   : 0.12us vs 0.12us (-1.017x diff)
+
+test_1_func                                        : 2.51us vs 2.51us (-1.003x diff)
+test_3_func                                        : 2.70us vs 2.66us (-1.016x diff)
+test_10_func                                       : 3.31us vs 3.18us (-1.041x diff)
+test_1_1_func                                      : 2.86us vs 2.77us (-1.033x diff)
+test_1_3_func                                      : 3.02us vs 2.94us (-1.025x diff)
+test_3_1_func                                      : 3.43us vs 3.41us (-1.006x diff)
+test_3_3_func                                      : 4.01us vs 4.02us (+1.004x diff)
+test_10_1_func                                     : 5.81us vs 5.60us (-1.036x diff)
+test_10_3_func                                     : 7.55us vs 7.47us (-1.011x diff)
+test_10_10_func                                    : 12.88us vs 12.74us (-1.011x diff)
+test_1_deferred_blocked                            : 5.24us vs 5.29us (+1.009x diff)
+test_1_deferred                                    : 5.24us vs 3.49us (-1.502x diff)
+test_3_deferred_blocked                            : 10.65us vs 10.98us (+1.031x diff)
+test_3_deferred                                    : 9.88us vs 5.34us (-1.851x diff)
+test_10_deferred_blocked                           : 30.72us vs 33.55us (+1.092x diff)
+test_10_deferred                                   : 25.46us vs 11.48us (-2.218x diff)
+test_1_1_deferred_blocked                          : 5.50us vs 5.46us (-1.006x diff)
+test_1_1_deferred                                  : 5.50us vs 3.90us (-1.411x diff)
+test_1_3_deferred_blocked                          : 10.97us vs 11.30us (+1.030x diff)
+test_1_3_deferred                                  : 10.15us vs 5.72us (-1.774x diff)
+test_3_1_deferred_blocked                          : 11.40us vs 11.84us (+1.039x diff)
+test_3_1_deferred                                  : 10.73us vs 6.29us (-1.705x diff)
+test_3_3_deferred_blocked                          : 28.29us vs 31.15us (+1.101x diff)
+test_3_3_deferred                                  : 24.20us vs 11.81us (-2.049x diff)
+test_10_1_deferred_blocked                         : 33.03us vs 36.16us (+1.095x diff)
+test_10_1_deferred                                 : 28.61us vs 14.05us (-2.037x diff)
+test_10_3_deferred_blocked                         : 99.24us vs 108.93us (+1.098x diff)
+test_10_3_deferred                                 : 72.76us vs 32.43us (-2.243x diff)
+test_10_10_deferred_blocked                        : 396.90us vs 418.59us (+1.055x diff)
+test_10_10_deferred                                : 224.05us vs 95.50us (-2.346x diff)
+test_addCallback_1_succeed_func                    : 9.19us vs 7.94us (-1.157x diff)
                                                    : without overhead evaluated in test_1_func:
-                                                   : 6.68us vs 5.44us (-22.8% of min)
-test_addCallback_3_succeed_func                    : 15.48us vs 14.17us (-9.3% of min)
+                                                   : 6.68us vs 5.44us (-1.228x diff)
+
+test_addCallback_3_succeed_func                    : 15.48us vs 14.17us (-1.093x diff)
                                                    : without overhead evaluated in test_3_func:
-                                                   : 12.78us vs 11.51us (-11.0% of min)
-test_addCallback_10_succeed_func                   : 37.58us vs 35.61us (-5.5% of min)
+                                                   : 12.78us vs 11.51us (-1.110x diff)
+
+test_addCallback_10_succeed_func                   : 37.58us vs 35.61us (-1.055x diff)
                                                    : without overhead evaluated in test_10_func:
-                                                   : 34.27us vs 32.43us (-5.7% of min)
-test_yield_1_func_returnValue                      : 13.59us vs 12.72us (-6.9% of min)
+                                                   : 34.27us vs 32.43us (-1.057x diff)
+
+test_yield_1_func_returnValue                      : 13.59us vs 12.72us (-1.069x diff)
                                                    : without overhead evaluated in test_1_func:
-                                                   : 11.08us vs 10.21us (-8.5% of min)
-test_yield_3_func_returnValue                      : 13.61us vs 12.67us (-7.4% of min)
+                                                   : 11.08us vs 10.21us (-1.085x diff)
+
+test_yield_3_func_returnValue                      : 13.61us vs 12.67us (-1.074x diff)
                                                    : without overhead evaluated in test_3_func:
-                                                   : 10.91us vs 10.01us (-9.0% of min)
-test_yield_10_func_returnValue                     : 13.58us vs 12.65us (-7.4% of min)
+                                                   : 10.91us vs 10.01us (-1.090x diff)
+
+test_yield_10_func_returnValue                     : 13.58us vs 12.65us (-1.074x diff)
                                                    : without overhead evaluated in test_10_func:
-                                                   : 10.27us vs 9.47us (-8.5% of min)
-test_yield_1_yield_1_func_returnValue              : 40.27us vs 27.29us (-47.5% of min)
+                                                   : 10.27us vs 9.47us (-1.085x diff)
+
+test_yield_1_yield_1_func_returnValue              : 40.27us vs 27.29us (-1.475x diff)
                                                    : without overhead evaluated in test_1_1_func:
-                                                   : 37.40us vs 24.52us (-52.5% of min)
-test_yield_1_yield_3_func_returnValue              : 69.84us vs 44.42us (-57.2% of min)
+                                                   : 37.40us vs 24.52us (-1.525x diff)
+
+test_yield_1_yield_3_func_returnValue              : 69.84us vs 44.42us (-1.572x diff)
                                                    : without overhead evaluated in test_1_3_func:
-                                                   : 66.82us vs 41.47us (-61.1% of min)
-test_yield_3_yield_1_func_returnValue              : 96.51us vs 59.79us (-61.4% of min)
+                                                   : 66.82us vs 41.47us (-1.611x diff)
+
+test_yield_3_yield_1_func_returnValue              : 96.51us vs 59.79us (-1.614x diff)
                                                    : without overhead evaluated in test_3_1_func:
-                                                   : 93.08us vs 56.38us (-65.1% of min)
-test_yield_3_yield_3_func_returnValue              : 181.83us vs 108.69us (-67.3% of min)
+                                                   : 93.08us vs 56.38us (-1.651x diff)
+
+test_yield_3_yield_3_func_returnValue              : 181.83us vs 108.69us (-1.673x diff)
                                                    : without overhead evaluated in test_3_3_func:
-                                                   : 177.82us vs 104.67us (-69.9% of min)
-test_yield_10_yield_1_func_returnValue             : 291.51us vs 170.32us (-71.2% of min)
+                                                   : 177.82us vs 104.67us (-1.699x diff)
+
+test_yield_10_yield_1_func_returnValue             : 291.51us vs 170.32us (-1.712x diff)
                                                    : without overhead evaluated in test_10_1_func:
-                                                   : 285.71us vs 164.72us (-73.5% of min)
-test_yield_10_yield_3_func_returnValue             : 577.71us vs 333.86us (-73.0% of min)
+                                                   : 285.71us vs 164.72us (-1.735x diff)
+
+test_yield_10_yield_3_func_returnValue             : 577.71us vs 333.86us (-1.730x diff)
                                                    : without overhead evaluated in test_10_3_func:
-                                                   : 570.15us vs 326.38us (-74.7% of min)
-test_yield_10_yield_10_func_returnValue            : 1570.53us vs 897.32us (-75.0% of min)
+                                                   : 570.15us vs 326.38us (-1.747x diff)
+
+test_yield_10_yield_10_func_returnValue            : 1570.53us vs 897.32us (-1.750x diff)
                                                    : without overhead evaluated in test_10_10_func:
-                                                   : 1557.65us vs 884.57us (-76.1% of min)
-test_addCallback_1_succeed_deferred_blocked        : 18.62us vs 16.53us (-12.6% of min)
+                                                   : 1557.65us vs 884.57us (-1.761x diff)
+
+test_addCallback_1_succeed_deferred_blocked        : 18.62us vs 16.53us (-1.126x diff)
                                                    : without overhead evaluated in test_1_deferred_blocked:
-                                                   : 13.38us vs 11.24us (-19.0% of min)
-test_addCallback_1_succeed_deferred                : 12.24us vs 9.96us (-22.9% of min)
+                                                   : 13.38us vs 11.24us (-1.190x diff)
+
+test_addCallback_1_succeed_deferred                : 12.24us vs 9.96us (-1.229x diff)
                                                    : without overhead evaluated in test_1_deferred:
-                                                   : 6.99us vs 6.47us (-8.1% of min)
-test_addCallback_3_succeed_deferred_blocked        : 38.45us vs 36.18us (-6.3% of min)
+                                                   : 6.99us vs 6.47us (-1.081x diff)
+
+test_addCallback_3_succeed_deferred_blocked        : 38.45us vs 36.18us (-1.063x diff)
                                                    : without overhead evaluated in test_3_deferred_blocked:
-                                                   : 27.81us vs 25.21us (-10.3% of min)
-test_addCallback_3_succeed_deferred                : 25.12us vs 19.81us (-26.8% of min)
+                                                   : 27.81us vs 25.21us (-1.103x diff)
+
+test_addCallback_3_succeed_deferred                : 25.12us vs 19.81us (-1.268x diff)
                                                    : without overhead evaluated in test_3_deferred:
-                                                   : 15.24us vs 14.47us (-5.3% of min)
-test_addCallback_10_succeed_deferred_blocked       : 107.61us vs 106.04us (-1.5% of min)
+                                                   : 15.24us vs 14.47us (-1.053x diff)
+
+test_addCallback_10_succeed_deferred_blocked       : 107.61us vs 106.04us (-1.015x diff)
                                                    : without overhead evaluated in test_10_deferred_blocked:
-                                                   : 76.88us vs 72.49us (-6.1% of min)
-test_addCallback_10_succeed_deferred               : 69.66us vs 54.96us (-26.7% of min)
+                                                   : 76.88us vs 72.49us (-1.061x diff)
+
+test_addCallback_10_succeed_deferred               : 69.66us vs 54.96us (-1.267x diff)
                                                    : without overhead evaluated in test_10_deferred:
-                                                   : 44.20us vs 43.48us (-1.7% of min)
-test_yield_1_succeed_deferred_returnValue_blocked  : 32.17us vs 25.80us (-24.7% of min)
+                                                   : 44.20us vs 43.48us (-1.017x diff)
+
+test_yield_1_succeed_deferred_returnValue_blocked  : 32.17us vs 25.80us (-1.247x diff)
                                                    : without overhead evaluated in test_1_deferred_blocked:
-                                                   : 26.93us vs 20.51us (-31.3% of min)
-test_yield_1_succeed_deferred_returnValue          : 27.70us vs 15.06us (-83.9% of min)
+                                                   : 26.93us vs 20.51us (-1.313x diff)
+
+test_yield_1_succeed_deferred_returnValue          : 27.70us vs 15.06us (-1.839x diff)
                                                    : without overhead evaluated in test_1_deferred:
-                                                   : 22.45us vs 11.57us (-94.1% of min)
-test_yield_3_succeed_deferred_returnValue_blocked  : 48.82us vs 41.67us (-17.2% of min)
+                                                   : 22.45us vs 11.57us (-1.941x diff)
+
+test_yield_3_succeed_deferred_returnValue_blocked  : 48.82us vs 41.67us (-1.172x diff)
                                                    : without overhead evaluated in test_3_deferred_blocked:
-                                                   : 38.17us vs 30.70us (-24.4% of min)
-test_yield_3_succeed_deferred_returnValue          : 43.61us vs 18.30us (-138.4% of min)
+                                                   : 38.17us vs 30.70us (-1.244x diff)
+
+test_yield_3_succeed_deferred_returnValue          : 43.61us vs 18.30us (-2.384x diff)
                                                    : without overhead evaluated in test_3_deferred:
-                                                   : 33.73us vs 12.95us (-160.3% of min)
-test_yield_10_succeed_deferred_returnValue_blocked : 107.79us vs 99.21us (-8.7% of min)
+                                                   : 33.73us vs 12.95us (-2.603x diff)
+
+test_yield_10_succeed_deferred_returnValue_blocked : 107.79us vs 99.21us (-1.087x diff)
                                                    : without overhead evaluated in test_10_deferred_blocked:
-                                                   : 77.07us vs 65.66us (-17.4% of min)
-test_yield_10_succeed_deferred_returnValue         : 96.69us vs 29.54us (-227.4% of min)
+                                                   : 77.07us vs 65.66us (-1.174x diff)
+
+test_yield_10_succeed_deferred_returnValue         : 96.69us vs 29.54us (-3.274x diff)
                                                    : without overhead evaluated in test_10_deferred:
-                                                   : 71.23us vs 18.06us (-294.5% of min)
-test_yield_1_deferred_returnValue_blocked          : 23.94us vs 23.83us (-0.5% of min)
+                                                   : 71.23us vs 18.06us (-3.945x diff)
+
+test_yield_1_deferred_returnValue_blocked          : 23.94us vs 23.83us (-1.005x diff)
                                                    : without overhead evaluated in test_1_deferred_blocked:
-                                                   : 18.70us vs 18.54us (-0.9% of min)
-test_yield_1_deferred_returnValue                  : 20.26us vs 13.42us (-50.9% of min)
+                                                   : 18.70us vs 18.54us (-1.009x diff)
+
+test_yield_1_deferred_returnValue                  : 20.26us vs 13.42us (-1.509x diff)
                                                    : without overhead evaluated in test_1_deferred:
-                                                   : 15.01us vs 9.93us (-51.1% of min)
-test_yield_3_deferred_returnValue_blocked          : 40.18us vs 39.75us (-1.1% of min)
+                                                   : 15.01us vs 9.93us (-1.511x diff)
+
+test_yield_3_deferred_returnValue_blocked          : 40.18us vs 39.75us (-1.011x diff)
                                                    : without overhead evaluated in test_3_deferred_blocked:
-                                                   : 29.53us vs 28.77us (-2.6% of min)
-test_yield_3_deferred_returnValue                  : 35.93us vs 16.72us (-114.8% of min)
+                                                   : 29.53us vs 28.77us (-1.026x diff)
+
+test_yield_3_deferred_returnValue                  : 35.93us vs 16.72us (-2.148x diff)
                                                    : without overhead evaluated in test_3_deferred:
-                                                   : 26.05us vs 11.38us (-128.8% of min)
-test_yield_10_deferred_returnValue_blocked         : 99.33us vs 99.71us (+0.4% of min)
+                                                   : 26.05us vs 11.38us (-2.288x diff)
+
+test_yield_10_deferred_returnValue_blocked         : 99.33us vs 99.71us (+1.004x diff)
                                                    : without overhead evaluated in test_10_deferred_blocked:
-                                                   : 68.61us vs 66.16us (-3.7% of min)
-test_yield_10_deferred_returnValue                 : 88.19us vs 28.32us (-211.4% of min)
+                                                   : 68.61us vs 66.16us (-1.037x diff)
+
+test_yield_10_deferred_returnValue                 : 88.19us vs 28.32us (-3.114x diff)
                                                    : without overhead evaluated in test_10_deferred:
-                                                   : 62.72us vs 16.84us (-272.5% of min)
-test_yield_1_yield_1_deferred_returnValue_blocked  : 49.23us vs 40.79us (-20.7% of min)
+                                                   : 62.72us vs 16.84us (-3.725x diff)
+
+test_yield_1_yield_1_deferred_returnValue_blocked  : 49.23us vs 40.79us (-1.207x diff)
                                                    : without overhead evaluated in test_1_1_deferred_blocked:
-                                                   : 43.74us vs 35.33us (-23.8% of min)
-test_yield_1_yield_1_deferred_returnValue          : 47.81us vs 28.93us (-65.3% of min)
+                                                   : 43.74us vs 35.33us (-1.238x diff)
+
+test_yield_1_yield_1_deferred_returnValue          : 47.81us vs 28.93us (-1.653x diff)
                                                    : without overhead evaluated in test_1_1_deferred:
-                                                   : 42.31us vs 25.04us (-69.0% of min)
-test_yield_1_yield_3_deferred_returnValue_blocked  : 93.16us vs 76.73us (-21.4% of min)
+                                                   : 42.31us vs 25.04us (-1.690x diff)
+
+test_yield_1_yield_3_deferred_returnValue_blocked  : 93.16us vs 76.73us (-1.214x diff)
                                                    : without overhead evaluated in test_1_3_deferred_blocked:
-                                                   : 82.19us vs 65.43us (-25.6% of min)
-test_yield_1_yield_3_deferred_returnValue          : 95.47us vs 48.89us (-95.3% of min)
+                                                   : 82.19us vs 65.43us (-1.256x diff)
+
+test_yield_1_yield_3_deferred_returnValue          : 95.47us vs 48.89us (-1.953x diff)
                                                    : without overhead evaluated in test_1_3_deferred:
-                                                   : 85.32us vs 43.17us (-97.6% of min)
-test_yield_3_yield_1_deferred_returnValue_blocked  : 128.36us vs 93.65us (-37.1% of min)
+                                                   : 85.32us vs 43.17us (-1.976x diff)
+
+test_yield_3_yield_1_deferred_returnValue_blocked  : 128.36us vs 93.65us (-1.371x diff)
                                                    : without overhead evaluated in test_3_1_deferred_blocked:
-                                                   : 116.97us vs 81.81us (-43.0% of min)
-test_yield_3_yield_1_deferred_returnValue          : 118.56us vs 64.62us (-83.5% of min)
+                                                   : 116.97us vs 81.81us (-1.430x diff)
+
+test_yield_3_yield_1_deferred_returnValue          : 118.56us vs 64.62us (-1.835x diff)
                                                    : without overhead evaluated in test_3_1_deferred:
-                                                   : 107.83us vs 58.33us (-84.9% of min)
-test_yield_3_yield_3_deferred_returnValue_blocked  : 255.56us vs 206.43us (-23.8% of min)
+                                                   : 107.83us vs 58.33us (-1.849x diff)
+
+test_yield_3_yield_3_deferred_returnValue_blocked  : 255.56us vs 206.43us (-1.238x diff)
                                                    : without overhead evaluated in test_3_3_deferred_blocked:
-                                                   : 227.27us vs 175.28us (-29.7% of min)
-test_yield_3_yield_3_deferred_returnValue          : 248.45us vs 122.01us (-103.6% of min)
+                                                   : 227.27us vs 175.28us (-1.297x diff)
+
+test_yield_3_yield_3_deferred_returnValue          : 248.45us vs 122.01us (-2.036x diff)
                                                    : without overhead evaluated in test_3_3_deferred:
-                                                   : 224.24us vs 110.20us (-103.5% of min)
-test_yield_10_yield_1_deferred_returnValue_blocked : 371.05us vs 289.19us (-28.3% of min)
+                                                   : 224.24us vs 110.20us (-2.035x diff)
+
+test_yield_10_yield_1_deferred_returnValue_blocked : 371.05us vs 289.19us (-1.283x diff)
                                                    : without overhead evaluated in test_10_1_deferred_blocked:
-                                                   : 338.02us vs 253.02us (-33.6% of min)
-test_yield_10_yield_1_deferred_returnValue         : 365.77us vs 185.83us (-96.8% of min)
+                                                   : 338.02us vs 253.02us (-1.336x diff)
+
+test_yield_10_yield_1_deferred_returnValue         : 365.77us vs 185.83us (-1.968x diff)
                                                    : without overhead evaluated in test_10_1_deferred:
-                                                   : 337.16us vs 171.78us (-96.3% of min)
-test_yield_10_yield_3_deferred_returnValue_blocked : 906.66us vs 709.89us (-27.7% of min)
+                                                   : 337.16us vs 171.78us (-1.963x diff)
+
+test_yield_10_yield_3_deferred_returnValue_blocked : 906.66us vs 709.89us (-1.277x diff)
                                                    : without overhead evaluated in test_10_3_deferred_blocked:
-                                                   : 807.42us vs 600.96us (-34.4% of min)
-test_yield_10_yield_3_deferred_returnValue         : 794.65us vs 380.54us (-108.8% of min)
+                                                   : 807.42us vs 600.96us (-1.344x diff)
+
+test_yield_10_yield_3_deferred_returnValue         : 794.65us vs 380.54us (-2.088x diff)
                                                    : without overhead evaluated in test_10_3_deferred:
-                                                   : 721.89us vs 348.11us (-107.4% of min)
-test_yield_10_yield_10_deferred_returnValue_blocked: 2747.26us vs 2293.18us (-19.8% of min)
+                                                   : 721.89us vs 348.11us (-2.074x diff)
+
+test_yield_10_yield_10_deferred_returnValue_blocked: 2747.26us vs 2293.18us (-1.198x diff)
                                                    : without overhead evaluated in test_10_10_deferred_blocked:
-                                                   : 2350.35us vs 1874.58us (-25.4% of min)
-test_yield_10_yield_10_deferred_returnValue        : 2310.80us vs 1041.91us (-121.8% of min)
+                                                   : 2350.35us vs 1874.58us (-1.254x diff)
+
+test_yield_10_yield_10_deferred_returnValue        : 2310.80us vs 1041.91us (-2.218x diff)
                                                    : without overhead evaluated in test_10_10_deferred:
-                                                   : 2086.75us vs 946.40us (-120.5% of min)
+                                                   : 2086.75us vs 946.40us (-2.205x diff)
+

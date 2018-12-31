@@ -9,6 +9,16 @@ def read_results_from_file(path):
     with open(path) as in_f:
         return perf_utils.PerfResults.from_json(json.load(in_f))
 
+
+def get_diff(a, b):
+    times_diff = (b - a) / min(b, a)
+    sign = '-' if times_diff < 0 else '+'
+
+    # 1.00x diff is zero, 2.00x diff is two times faster or slower
+    times_diff = abs(times_diff) + 1
+    return sign, times_diff
+
+
 def main():
     parser = argparse.ArgumentParser(prog='perf_compare')
     parser.add_argument('path_a', type=str)
@@ -26,9 +36,11 @@ def main():
         r_a = results_a.results[name]
         r_b = results_b.results[name]
 
-        pct_diff = (r_b.value - r_a.value) * 100 / min(r_a.value, r_b.value)
-        line = '{0}: {1:.2f}us vs {2:.2f}us ({3:+.1f}% of min)'.format(
-            name.ljust(max_name_len), r_a.value, r_b.value, pct_diff)
+        sign, times_diff = get_diff(r_a.value, r_b.value)
+
+        line = '{0}: {1:.2f}us vs {2:.2f}us ({3}{4:.3f}x diff)'.format(
+            name.ljust(max_name_len), r_a.value, r_b.value, sign,
+            times_diff)
         lines.append(line)
 
         if r_a.base_name is not None:
@@ -39,13 +51,15 @@ def main():
             a_value = r_a.value - br_a.value
             b_value = r_b.value - br_b.value
 
-            pct_diff = (b_value - a_value) * 100 / min(b_value, a_value)
+            sign, times_diff = get_diff(a_value, b_value)
 
             lines.append('{0}: without overhead evaluated in {1}:'.format(
                 ''.ljust(max_name_len), r_a.base_name))
-            line = '{0}: {1:.2f}us vs {2:.2f}us ({3:+.1f}% of min)'.format(
-                ''.ljust(max_name_len), a_value, b_value, pct_diff)
+            line = '{0}: {1:.2f}us vs {2:.2f}us ({3}{4:.3f}x diff)'.format(
+                ''.ljust(max_name_len), a_value, b_value, sign, times_diff)
+
             lines.append(line)
+            lines.append('')
 
     print('\n'.join(lines))
 
